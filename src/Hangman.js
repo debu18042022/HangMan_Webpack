@@ -18,7 +18,7 @@ const Hangman = () => {
     "iraq",
     "malawi",
   ];
-
+  // console.log("arr");
   const [d, setD] = useState(0);
   const [temp, setTemp] = useState([]);
   const [enteredValue, setEnteredValue] = useState("");
