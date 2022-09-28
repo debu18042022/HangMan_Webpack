@@ -1,17 +1,9 @@
-body {
-  /* background-color: lightblue; */
+.Country_Name {
+  text-align: center;
+  color: gold;
+  font-weight: bolder;
+  
 }
-
-.container {
-  /* border: 1px solid black; */
-  /* display: grid; */
-  /* place-items: center; */
-}
-
-.leftContainer {
-  /* border: 1px solid black; */
-}
-
 .rightContainer {
   margin-top: -50px;
   /* border: 1px solid black; */

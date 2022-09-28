@@ -63,6 +63,11 @@ const Hangman = () => {
 
   return (
     <div className="container">
+      <h2
+        className="Country_Name"
+      >
+        Country Name
+      </h2>
       <div className="leftContainer">
         {count > 1 ? (
           <img src={`${count}.png`} alt="" />
@@ -80,7 +85,7 @@ const Hangman = () => {
                     <input
                       className="inputBlock"
                       type="text"
-                      placeholder={temp[i]}
+                      // placeholder={temp[i]}
                       value={enteredValue}
                       style={{
                         width: "20px",
@@ -94,7 +99,7 @@ const Hangman = () => {
                     <input
                       className="inputBlock"
                       type="text"
-                      placeholder={temp[i]}
+                      // placeholder={temp[i]}
                       style={{ width: "20px", height: "20px" }}
                     />
                   </>
